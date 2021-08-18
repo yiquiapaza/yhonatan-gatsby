@@ -1,5 +1,5 @@
 import * as React from "react"
-
+import Header from "../components/header"
 // styles
 const pageStyles = {
   color: "#232129",
@@ -128,7 +128,8 @@ const links = [
 // markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
+    <main>
+      <Header />
       <title>Home Page</title>
       <h1 style={headingStyles}>
         Congratulations
@@ -149,7 +150,7 @@ const IndexPage = () => {
         <li style={docLinkStyle}>
           <a
             style={linkStyle}
-            href={`${docLink.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
+            nhref={`${docLink.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
           >
             {docLink.text}
           </a>

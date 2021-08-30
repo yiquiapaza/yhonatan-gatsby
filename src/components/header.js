@@ -21,15 +21,21 @@ const Header = () => {
 					</Link>
 					<Link
 						className='p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300'
-						to='/publications'
+						to='/research'
 					>
-						<span>Publications</span>
+						<span>Research</span>
 					</Link>
 					<Link
 						className='p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300'
 						to='/about'
 					>
 						<span>About</span>
+					</Link>
+					<Link
+						className='p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300'
+						to='/social'
+					>
+						<span>Social</span>
 					</Link>
 				</div>
 			</div>

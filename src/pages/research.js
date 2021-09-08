@@ -6,7 +6,7 @@ const Research = () => {
 		<main>
 			<Helmet>
         <meta charSet='utf-8'/>
-        <title>Research|Yhonatan</title>
+        <title>Research | Yhonatan</title>
         <link rel='canonical' ref='https://yhonatanjesus.com/research' />
 			</Helmet>
 			<Header>
